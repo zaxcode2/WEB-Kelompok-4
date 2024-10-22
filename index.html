@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BIODATA KELOMPOK 4</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-pYf/TTmvIlXlc4FqBhp4V+BEOccyafTfMojlI5EwmCZ4kJ6pBv95AFMUuIVVYIoxGtpHrxQx0c/TKx7VPhf3Yw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            background-image: url('background1.jpg'); /* Ganti dengan path gambar Anda */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo"><i class="fas fa-user"></i>BIODATA KELOMPOK 4</div>
+            <ul class="nav-links">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user-circle"></i> About</a></li>
+                <li><a href="#gallery"><i class="fas fa-images"></i> Gallery</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    
+
+    <!-- Home Section -->
+    <section id="home" class="section home-section">
+        <div class="home-content" data-aos="fade-up">
+            <h1>Biodata Kelompok 4</h1>
+            <p>ini web mengenai biodata tentang kelompok 4  </p>
+            <a href="#about" class="btn"><i class="fas fa-arrow-down"></i> yes yes</a>
+        </div>
+    </section>
+
+                <!-- About Section -->
+                            <section id="about" class="section about-section">
+                                <div class="container">
+                                    <h2 data-aos="fade-right">About Us</h2>
+                                    <div class="about-grid">
+                            <!-- Person 1 -->
+                            <article class="about-person" data-aos="fade-up">
+                                <img src="Michael.jpg" alt="Michael, a student aspiring to be a programmer" class="about-image" data-aos="zoom-in">
+                                <div class="about-text">
+                                    <h3>Michael</h3>
+                                    <p>Perkenalkan aku adalah <strong>Michael</strong>, saya murid yang sigma dan ingin menjadi programmer yg sigma.</p>
+                                </div>
+                            </article>
+
+                            <!-- Person 2 -->
+                            <article class="about-person" data-aos="fade-up" data-aos-delay="100">
+                                <img src="Zaki.jpg" alt="Zaki, a math enthusiast" class="about-image" data-aos="zoom-in">
+                                <div class="about-text">
+                                    <h3>Zaki</h3>
+                                    <p>Yo saya <strong>Zaki</strong>,Aku berminat masuk teknik informatika ITB !</p>
+                                </div>
+                            </article>
+
+                            <!-- Person 3 -->
+                            <article class="about-person" data-aos="fade-up" data-aos-delay="200">
+                                <img src="Faeyza.jpg" alt="Faeyza, a student" class="about-image" data-aos="zoom-in">
+                                <div class="about-text">
+                                    <h3>Faeyza</h3>
+                                    <p>Aku <strong>Faeyza</strong>, saya adalah Ryan Gosling-nya XI-11.</p>
+                                </div>
+                            </article>
+
+                            <!-- Person 4 -->
+                            <article class="about-person" data-aos="fade-up" data-aos-delay="300">
+                                <img src="person4.jpg" alt="Person 4, a dedicated professional" class="about-image" data-aos="zoom-in">
+                                <div class="about-text">
+                                    <h3>Daffa</h3>
+                                    <p>What's up i am <strong>Daffa</strong>, 
+                                    Saya adalah lelaki yang mengisi waktu luang saya dengan   memancing, karena saya suka memancing.</p>
+            </div>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+
+
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section gallery-section">
+        <div class="container">
+            <h2 data-aos="fade-right">Gallery</h2>
+            <div class="gallery-grid">
+                <!-- Gambar 1 -->
+                <div class="gallery-item" data-aos="zoom-in">
+                    <div class="flip-card" onclick="toggleEnlarge(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="Michael.jpg" alt="Gallery Image 1">
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Michael</h3>
+                                <p>Pengen Volvo VNL 860</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gambar 2 -->
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="flip-card" onclick="toggleEnlarge(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="Zaki.jpg" alt="Gallery Image 2">
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Zaki</h3>
+                                <p>Ajarin Aku it🤑🤬</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gambar 3 -->
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="flip-card" onclick="toggleEnlarge(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="Faeyza.jpg" alt="Gallery Image 3">
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Faeyza</h3>
+                                <p>zib Zub</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gambar 4 -->
+                <div class="gallery-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="flip-card" onclick="toggleEnlarge(this)">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="image4.jpg" alt="Gallery Image 4">
+                            </div>
+                            <div class="flip-card-back">
+                                <h3>Daffa</h3>
+                                <p>Yung iyung iyung</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function toggleEnlarge(card) {
+            card.classList.toggle('enlarged');
+        }
+    </script>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 data-aos="fade-right">Hubungi Kami</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="contact-info">
+                        <h3>No. Telepon</h3>
+                        <p>085797938782</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Email</h3>
+                        <p>michael.jts09@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Formulir Kontak</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nama</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit">Kirim</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" title="Back to Top"><i class="fas fa-arrow-up"></i></button>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; hard work beat talent when talent fail to work hard</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Libraries -->
+    <!-- AOS JS for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+    <!-- JavaScript for Mobile Navigation and Back to Top -->
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true,
+        });
+
+        // Mobile Navigation
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+            hamburger.classList.toggle('active');
+        });
+
+        // Back to Top Button
+        const backToTopButton = document.getElementById('backToTop');
+
+        window.onscroll = function() { scrollFunction(); };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                backToTopButton.style.display = "block";
+            } else {
+                backToTopButton.style.display = "none";
+            }
+        }
+
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
